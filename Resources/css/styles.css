@@ -238,6 +238,7 @@ div.font-colors {
     padding-bottom: 5px;
     font-family: "Open Sans";
     font-size: 16px;
+    vertical-align: middle;
 }
 
 .p-container {
