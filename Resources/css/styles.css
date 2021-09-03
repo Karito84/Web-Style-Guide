@@ -99,6 +99,7 @@ nav {
     margin-top: 30px;
     overflow: hidden;
     border-radius: 5px;
+    vertical-align: middle;
 }
 
 div.colors {
