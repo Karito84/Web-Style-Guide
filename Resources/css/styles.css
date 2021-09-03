@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    margin-top: 100px;
+    background-color:hsl(223, 82%, 94%)
+}
+
+.navbar {
+    position:fixed;
+    top:0%;
+    z-index: 10;
+    background-color:hsl(223, 82%, 94%);
+    width: 100%;
+    height:80px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 32px;
+    margin-bottom:50px;
+}
+
+h2 {
+   text-transform: uppercase;
+   color: hsl(0, 0%, 95%);
+   background-color:hsl(223, 32%, 31%);
+   padding:7px;
+   margin:30px 10px;
+   letter-spacing:1.2px;
+   font-weight: 500;
+   font-family: "Lato";
+   font-size: 24px;
+   text-align: left;;
+}
+
+h3 {
+    text-align:center;
+    margin-top: 50px;
+    font-family: "Frank Ruhl Libre";
+    font-size: 21px;
+}
+
+nav {
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+    position: relative;
+    top:50%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: hsl(223, 89%, 64%);
+}
+
+.navbar a:hover {
+        color: hsl(223, 100%, 78%);
+}
+
+/* Colors*/
+
+.medium {
+    background-color: hsl(223, 89%, 64%);
+}
+
+.light {
+    background-color: hsl(223, 100%, 78%);
+    
+}
+
+.dark {
+    background-color: hsl(223, 32%, 31%);
+    color: hsl(0, 0%, 95%);
+}
+
+.complimentary {
+     background-color: 	hsl(0, 53%, 58%);
+     color: hsl(0, 0%, 95%);
+}
+
+.color p {
+    margin-top: 20px;
+}
+
+.color, .font-color {
+    width: 330px;
+    height: 225px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+div.colors {
+    margin:30px auto;
+    text-align: center;
+}
+    
+.destination li{
+    text-align: left;
+}
+.destination {
+margin-top: 30px;
+position:relative;
+top:30px;
+}
+
+.font-for-dark {
+    background-color: hsl(223, 32%, 31%);
+    color:hsl(0, 0%, 95%);
+}
+
+.font-for-light {
+    background-color: hsl(223, 100%, 78%);
+    color:hsl(0, 0%, 5%);
+}
+
+.font-for-medium {
+    background-color: hsl(223, 89%, 64%);
+    color:hsl(0, 0%, 5%);
+}
+
+.font-for-complimentary {
+    background-color: 	hsl(0, 53%, 58%);
+    color:hsl(0, 0%, 95%);
+}
+
+.font-color {
+   height: fit-content;
+}
+
+.font-color p {
+    margin:15px;
+}
+div.font-colors {
+    text-align: center;
+    margin-bottom:50px;
+}
+  
+/* Fonts*/
+
+.font-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top:30px;
+}
+
+.font1-styles p {
+    font-family: "Lato", 'sans-serif';
+}
+
+.font2-styles p {
+    font-family: "Frank Ruhl Libre", "serif";
+}
+
+.font3-styles p {
+    font-family: "Open Sans", "sans-serif";
+}
+
+.thin {
+    font-weight:100;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight:700;
+    }
+
+.underlined {
+    text-decoration: underline;
+}
+
+.thin, .regular, .bold, .underlined {
+    font-size:18px;
+    line-height: 1.5;
+}
+
+.font1-styles, .font2-styles, .font3-styles {
+    width:675px;
+    height: 250px;
+    border: 2px solid hsl(223, 32%, 31%);
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    overflow:hidden;
+    margin: 30px 15px 0 15px;
+}
+
+.fonts, .text {
+    text-align: center;
+}
+
+   /* Text Styles*/
+.h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Lato", "sans-serif";
+    margin: 5px;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Lato", "sans-serif";
+    margin-top: 10px ;
+    margin-bottom: 1px;
+}
+
+.h3 {
+    font-weight: 500;
+    font-size: 21px;
+    font-family: "Frank Ruhl Libre", "serif";
+    margin-top: 15px;
+}
+
+.h1-container, .h2-container, .h3-container, .p-container {
+    width: 400px;
+    height:250px;
+    display:inline-block;
+    background-color: hsl(223, 100%, 78%);
+    margin:30px 15px 0px 0;
+    overflow: hidden;
+    padding-bottom: 5px;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.p-container {
+    height: 180px;
+}
+
+.text-styles {
+    text-align:left;
+    line-height: 26px;
+}
+
+.h1-style {
+   margin-top:60px;
+}
+
+.h2-style {
+    margin-top: 40px;
+}
+
+.h3-style {
+    margin-top: 20px;
+}
+
+.h1-use {
+     margin: 13px 5px 5px 0;
+ }
+
+.h2-use {
+     margin: 25px 5px 5px 0;
+}
+
+.h3-use {
+    margin: 25px 10px 0 0;
+}
+
+.p-container p {
+    margin-top:10px;
+    margin-bottom:40px;
+}
+
+/* Buttons*/
+
+.design1 , .design2 {
+    text-align: center;
+}
+
+.button {
+    box-sizing:content-box;
+    padding: 20px;
+    width: 180px;
+    font-size:18px;
+    font-family: "Open Sans";
+    border-radius: 10px;
+    display:inline-block;
+    margin: 30px 100px 10px;
+    text-align: center;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.d1-primary {
+    background-color: hsl(223, 89%, 64%);
+    color:hsl(0, 0%, 5%);
+    border: 2px solid hsl(223, 100%, 78%);   
+}
+
+.d1-primary:hover {
+    background-color: hsl(223, 32%, 31%);
+    color: hsl(0, 0%, 95%);
+}
+
+.d1-primary:active {
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.d1-secondary {
+    background-color: hsl(0, 53%, 58%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 37%, 58%);
+}
+
+.d1-secondary:hover {
+    background-color:hsl(0, 53%, 30%);
+    color: hsl(0, 0%, 100%);
+}
+
+.d1-secondary:active {
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.design2 {
+    margin-top: 30px;
+}
+
+.d2-primary {
+    border: 2px solid hsl(223, 62%, 54%);
+    background: linear-gradient(hsl(223, 89%, 78%), hsl(223, 89%, 64%));
+    color:hsl(0, 0%, 95%);
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.2), 0px -2px 2px hsla(0, 0%, 100%, 0.5) inset, 0px 2px 2px hsla(0, 0%, 100%, 0.8) inset;
+    text-shadow: 0px -2px hsl(223, 62%, 54%);}
+
+.d2-primary:hover {
+    border:2px solid hsl(221, 88%, 30%);
+    box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.1), 0px -2px 2px hsla(0, 0%, 100%, 0.25) inset, 0px 2px 2px hsla(0, 0%, 100%, 0.4) inset;
+    background: hsl(223, 89%, 64%);
+    background: linear-gradient(hsl(223, 89%, 64%), hsl(223,62%,54%));
+}
+
+.d2-primary:active {
+    position: relative;
+    top:2px;
+    box-shadow: 0px 2px 2px hsla(0, 0%, 25%,0.1), 0px -2px 2px hsla(0, 0%, 100%, 0.25) inset, 0px 2px 2px hsla(0, 0%, 100%, 0.4) inset;
+    background: hsl(223, 62%, 54%);
+    background: linear-gradient(hsl(223, 62%, 54%), hsl(223, 89%, 64%));
+}
+
+.d2-secondary {
+    border: 2px solid hsl(0, 54%, 20%);
+    background:linear-gradient(hsl(0, 53%, 58%), hsl(0, 53%, 40%));
+    color:hsl(0, 0%, 95%);
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.2), 0px -2px 2px hsla(0, 0%, 100%, 0.5) inset, 0px 2px 2px hsla(0, 0%, 100%, 0.8) inset;
+    text-shadow: 0px -2px hsl(0, 54%, 20%);
+}
+
+.d2-secondary:hover {
+    border: 2px solid hsl(0, 54%, 22%);
+    box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.1), 0px -2px 2px hsla(0, 0%, 100%, 0.25) inset, 0px 2px 2px hsla(0, 0%, 100%, 0.4) inset;
+    background: hsl(0,53%, 40%);
+    background: linear-gradient(hsl(0, 53%, 40%), hsl(0, 54%, 20%));
+}
+
+.d2-secondary:active {
+    position:relative;
+    top: 2px; 
+    box-shadow: 0px 2px 2px hsla(0, 0%, 25%,0.1), 0px -2px 2px hsla(0, 0%, 100%, 0.25) inset, 0px 2px 2px hsla(0, 0%, 100%, 0.4) inset;
+    background: hsl(0, 54%, 20%);
+    background: linear-gradient(hsl(0%, 54%, 20%), hsl(0. 53%, 40%));
+}
+
+/*Facts about buttons*/
+
+.d1-facts h3, .d2-facts h3{
+    margin-top:60px;
+    text-transform: uppercase;
+    font-family: "Lato";
+    line-height: 1.2px;
+}
+
+.d1-facts h3, .d1-color{
+    color: hsl(0, 53%, 58%);
+}
+
+.d2-facts h3, .d2-color{
+    color:hsl(223, 32%, 31%);
+}
+
+div.d1-facts, div.d2-facts {
+    border:2px dotted hsl(0, 53%, 58%);
+    border-radius: 5px;
+    width:40%;
+    margin: 80px auto 60px;
+}
+
+.d1-facts ul, .d2-facts ul {
+    margin: 60px 0px 60px;
+    position:relative;
+    font-family: Lato;
+}
+   
+.facts li {
+    text-align: left;
+    font-size: 18px;
+}
+
+/* anchors to make the view of links appear lower*/
+
+.anchor1 {
+    display: block;
+    height: 60px; 
+    margin-top: -60px; 
+    visibility: hidden;   
+}
+
+.anchor2 {   
+    display: block;
+    height: 220px; 
+    margin-top: -220px; 
+    visibility: hidden;
+}
+
+.message {
+    font-family: "Lato";
+    font-size:18px;
+    color:hsl(223, 32%, 31%);
+    text-align: center;
+}
+
+.accent-word {
+    font-size: 30px;
+    text-transform: uppercase;
+    color:rgb(209, 40, 40);
+}
+
+.button-styles h4 {
+    display: inline-block;
+    margin: 40px 130px 0px;
+    
+}
+.button-styles {
+    text-align:center; 
+    margin-top:30px;
+}
+
+.footer {
+    background-color:hsl(223, 32%, 31%);
+    padding-top:45px;
+    margin-top: 40px;
+    height:100px;
+}
+
+.footer p {
+    color:hsl(0, 0%, 95%);
+    font-size:16px;
+    text-align: center;
+}
+
+.home-link {
+    text-align: right;
+    margin-right: 10%;
+    }
+
+.home-link a {
+   text-decoration: none; 
+}
+
